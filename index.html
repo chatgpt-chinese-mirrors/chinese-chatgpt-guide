@@ -10,7 +10,7 @@
     <meta property="og:title" content="国内如何使用 ChatGPT？最新 ChatGPT 介绍与教学指南">
     <meta property="og:description" content="这是一份全方位的指南，帮助您轻松使用 ChatGPT 中文版，无需科学上网即可无限制体验 GPT-4o 的全部功能！">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://www.yixiaai.com">
+    <meta property="og:url" content="https://xsimplechat.com">
     <meta property="og:image" content="http://ai.lansejingyu.com/wp-content/uploads/2024/05/logo高清修复-透明.png">
     <!-- favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -43,7 +43,7 @@
 
         h1 {
             font-size: 2em;
-            color: rgb(3, 3, 3); /* 确保标题颜色为白色 */
+            color: rgb(3, 3, 3);
         }
 
         h2, h3 {
@@ -101,7 +101,6 @@
             border-left: 5px solid #4CAF50;
         }
 
-        /* 增加页面内容高度自适应 */
         main {
             min-height: 60vh;
         }
@@ -111,7 +110,7 @@
     <header>
         <div class="container">
             <h1>国内如何使用 <strong>ChatGPT</strong>？最新 ChatGPT 介绍与教学指南</h1>
-<strong>更新日期：</strong>2025-03-16 07:03:44
+            <strong>更新日期：</strong><span id="update-date"></span>
         </div>
     </header>
 
@@ -152,19 +151,19 @@
                             <td>一下AI</td>
                             <td>GPT-4o.0、GPT o1、AI绘画</td>
                             <td>网站</td>
-                            <td><a href="http://www.yixiaai.com" target="_blank" rel="noopener">www.yixiaai.com</a></td>
+                            <td><a href="http://xsimplechat.com" target="_blank" rel="noopener">xsimplechat.com</a></td>
                         </tr>
                         <tr>
                             <td>Lify Chat</td>
                             <td>GPT-4o.0、GPT4.0 turbo、GPT o1、AI PPT、插件</td>
                             <td>网站</td>
-                            <td><a href="http://chat.lify.vip" target="_blank" rel="noopener">chat.lify.vip</a></td>
+                            <td><a href="http://chat.lanjingai.org" target="_blank" rel="noopener">chat.lanjingai.org</a></td>
                         </tr>
                         <tr>
                             <td>ChatGPT For Desktop</td>
                             <td>GPT 全系列模型</td>
                             <td>电脑客户端</td>
-                            <td><a href="http://chatknow.lify.vip/software/AI智慧岛_1.0.0_x64_zh-CN.msi" target="_blank" rel="noopener">下载链接</a></td>
+                            <td><a href="http://xsimplechat.com" target="_blank" rel="noopener">下载链接</a></td>
                         </tr>
                         <tr>
                             <td>ChatGPT for Edge</td>
@@ -215,7 +214,7 @@
             <section id="quick-start">
                 <h2>快速开始使用 <strong>ChatGPT</strong> 中文版</h2>
                 <ol>
-                    <li><strong>选择镜像站点</strong>：访问推荐的镜像站点，如 <a href="http://chat.lify.vip" target="_blank" rel="noopener">chat.lify.vip</a>。</li>
+                    <li><strong>选择镜像站点</strong>：访问推荐的镜像站点，如 <a href="http://chat.lanjingai.org" target="_blank" rel="noopener">chat.lanjingai.org</a>。</li>
                     <li><strong>注册账号</strong>：使用您的邮箱或微信扫码完成注册。</li>
                     <li><strong>选择模型</strong>：根据需要选择 GPT-4o、GPT-3.5 或 GPT-o1。</li>
                     <li><strong>享受体验</strong>：输入您的问题，获得准确和高效的回答！</li>
@@ -262,6 +261,20 @@
         </div>
     </main>
     <!-- Scripts -->
+    <script>
+      // 自动显示当前日期和时间
+      window.onload = function() {
+        var now = new Date();
+        var yyyy = now.getFullYear();
+        var mm = String(now.getMonth() + 1).padStart(2, '0');
+        var dd = String(now.getDate()).padStart(2, '0');
+        var hh = String(now.getHours()).padStart(2, '0');
+        var min = String(now.getMinutes()).padStart(2, '0');
+        var ss = String(now.getSeconds()).padStart(2, '0');
+        var formatted = yyyy + '-' + mm + '-' + dd + ' ' + hh + ':' + min + ':' + ss;
+        document.getElementById('update-date').textContent = formatted;
+      }
+    </script>
     <script src="scripts.js"></script>
 </body>
 </html>
