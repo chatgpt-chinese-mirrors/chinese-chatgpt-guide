@@ -1,6 +1,6 @@
 # 国内如何使用 ChatGPT？最新 ChatGPT 介绍与教学指南
 ---
->更新时间: 2025-07-20
+>更新时间: 2025-08-03
 
 **这是一份全方位的指南，帮助您轻松使用 ChatGPT 中文版，无需科学上网即可无限制体验 GPT-4 的全部功能！**  
 在本文中，您将了解如何通过推荐的镜像网站访问 ChatGPT 中文版、注册使用的具体方法，以及常见问题的解答。
@@ -23,8 +23,8 @@
 
 | 网站名称               | 支持功能                                 | 类型      | 访问方式                                                                                                      |
 |------------------------|------------------------------------------|---------|----------------------------------------------------------------------------------------------------------------|
-| 一下AI                 | GPT-4.0、GPT o1、AI绘画                   | 网站     | [xsimplechat.com](http://xsimplechat.com)                                                                     |
-| Lify Chat              | GPT-4.0、GPT4.0 turbo、GPT o1、AI PPT、插件 | 网站     | [chat.lanjingai.org](http://chat.lanjingai.org)                                                                          |
+| Xsimple AI                 | GPT-4.0、GPT o1、AI绘画                   | 网站     | [xsimplechat.com](http://xsimplechat.com)                                                                     |
+| 蓝鲸AI             | GPT-4.0、GPT4.0 turbo、GPT o1、AI PPT、插件 | 网站     | [chat.lanjingai.org](http://chat.lanjingai.org)                                                                          |
 | ChatGPT For Desktop    | GPT 全系列模型                              | 电脑客户端 | [ChatGPT For Desktop 下载链接](http://xsimplechat.com)                  |
 
 ---
